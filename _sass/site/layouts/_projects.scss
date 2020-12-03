@@ -49,7 +49,7 @@ $thumb-animation-ease-out: ease-in-out;
 //Styling
 .projects-intro {
   position: relative;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0rem;
 
   @include grid-media(phablet) {
     text-align: center;

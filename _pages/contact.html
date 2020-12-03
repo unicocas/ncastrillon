@@ -9,57 +9,45 @@ priority: 0.9
   {
     "@context": "http://schema.org",
     "@type": "Person",
-    "name": "Matt Grey",
-    "url": "http://www.himatt.com",
+    "name": "Nicolas Castrillon",
+    "url": "http://www.ncastrillon.com",
     "sameAs": [
       "https://twitter.com/{{ site.social-username.twitter }}",
-      "https://instagram.com/{{ site.social-username.instagram }}",
-      "https://linkedin.com/in/{{ site.social-username.linkedin }}",
-      "https://medium.com/{{ site.social-username.medium }}"
+      "https://github.com/{{ site.social-username.github }}",
+      "https://linkedin.com/in/{{ site.social-username.linkedin }}"
+      "https://scholar.google.com/citations?hl=en&user={{ site.social-username.scholar }}"
     ]
   }
 </script>
 
-<div class="contact-wrapper">
-  <div class="contact">
+<!-- <div class="projects-intro-wrapper">
+  <p class="projects-intro type-level-1">Let's connect on <a href="//linkedin.com/in/{{ site.social-username.linkedin }}">Linkedin</a> to spur a conversation – and maybe share some tunes on <a href="//open.spotify.com/user/{{ site.social-username.spotify }}">Spotify</a>.</br>
+  Stay updated about my newest work on <a href="//Scholar.google.com/citations?hl=en&user={{ site.social-username.spotify }}">Google Scholar</a>.</br>
+  I am excited to hear from you!</p>
+</div> -->
 
-    <aside class="contact-intro">
-      <p class="paragraph-huge">
-        You can see what I'm up to on <a href="//instagram.com/{{ site.social-username.instagram }}">Instagram</a>, connect with me on
-        <a href="//linkedin.com/in/{{ site.social-username.linkedin }}">Linkedin</a>,
-        or hear what I'm listening to on <a href="//open.spotify.com/user/{{ site.social-username.spotify }}">Spotify</a>.
-      </p>
-    </aside>
-
-    <div class="contact-form">
-      <form netlify action="/contact/confirmation">
-        <fieldset>
-          <section>
-            <label for="name">Name
-              <input autofocus type="text" name="name" id="name">
-            </label>
-          </section>
-
-          <section>
-            <label for="email">Email
-              <input required type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
-            </label>
-          </section>
-
-          <section>
-            <label for="message">Message
-              <textarea required name="message" id="message"></textarea>
-            </label>
-          </section>
-
-          <section>
-            <div data-netlify-recaptcha></div>
-          </section>
-
-          <input class="button-secondary" type="submit" value="Send Message">
-        </fieldset>
-      </form>
-    </div>
-
-  </div>
+<div class="projects-intro-wrapper">
+  <p class="projects-intro type-level-2">Let's connect on <a href="//linkedin.com/in/{{ site.social-username.linkedin }}">Linkedin</a> to spur a conversation – and maybe share some tunes on <a href="//open.spotify.com/user/{{ site.social-username.spotify }}">Spotify</a>.</br>
+  Stay updated about my newest work on <a href="//Scholar.google.com/citations?hl=en&user={{ site.social-username.spotify }}">Google Scholar</a>.</br>
+  I am excited to hear from you!</p>
 </div>
+
+<!-- <div class="projects-intro-wrapper">
+  <p class="projects-intro type-level-3">Let's connect on <a href="//linkedin.com/in/{{ site.social-username.linkedin }}">Linkedin</a> to spur a conversation – and maybe share some tunes on <a href="//open.spotify.com/user/{{ site.social-username.spotify }}">Spotify</a>.</br>
+  Stay updated about my newest work on <a href="//Scholar.google.com/citations?hl=en&user={{ site.social-username.spotify }}">Google Scholar</a>.</br>
+  I am excited to hear from you!</p>
+</div> -->
+
+<!-- <div class="projects-intro-wrapper">
+  <p class="projects-intro type-level-4">Let's connect on <a href="//linkedin.com/in/{{ site.social-username.linkedin }}">Linkedin</a> to spur a conversation – and maybe share some tunes on <a href="//open.spotify.com/user/{{ site.social-username.spotify }}">Spotify</a>.</br>
+  Stay updated about my newest work on <a href="//Scholar.google.com/citations?hl=en&user={{ site.social-username.spotify }}">Google Scholar</a>.</br>
+  I am excited to hear from you!</p>
+</div> -->
+
+<!-- <div class="contact-wrapper">
+  <p class="paragraph-huge">
+    Let's connect on <a href="//linkedin.com/in/{{ site.social-username.linkedin }}">Linkedin</a> to spur a conversation – and maybe share some tunes on <a href="//open.spotify.com/user/{{ site.social-username.spotify }}">Spotify</a>.</br>
+    Stay updated about my newest work on <a href="//Scholar.google.com/citations?hl=en&user={{ site.social-username.spotify }}">Google Scholar</a>.</br>
+    I am excited to hear from you!
+  </p>
+</div>  --> 

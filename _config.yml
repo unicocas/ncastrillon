@@ -18,27 +18,28 @@ include:
   - _redirects
 
 # Site settings
-title: Matt Grey
-long-title: Matt Grey Design
-email: mattgreydesign@gmail.com
-description: "The selected portfolio of London based digital product designer Matt Grey"
+title: Nicolas Castrillon
+long-title: Nicolas Castrillon Portfolio
+email: nico.castri@gmail.com
+description: "An interactive CV and compendium of work by Nicolas Castrillon."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://himatt.com" # the base hostname & protocol for your site
-timezone: Europe/London
+url: "https://ncastrillon.com" # the base hostname & protocol for your site
+timezone: America/Los Angeles
 year: 2020
-start-year: 2010
+start-year: 2020
 sitemap: true
 
 # Social networks
 social-username:
-  twitter: "@mattgreydesign"
-  linkedin: "himatt"
-  github: "mattgreydesign"
-  medium: "@mattgreydesign"
-  pinterest: "mattgreydesign"
-  instagram: "mattgreydesign"
-  flickr: "mattgreydesign"
-  spotify: "mattgreydesign"
+  twitter: "@unicocas"
+  linkedin: "nicolas-castrillon"
+  github: "unicocas"
+  # medium: "@mattgreydesign"
+  # pinterest: "mattgreydesign"
+  # instagram: "mattgreydesign"
+  # flickr: "mattgreydesign"
+  spotify: "1266544194"
+  scholar: "1Kkd6DQAAAAJ&"
 
 # Content
 image_serve_path: "/images" # <img src="{{ site.image_serve_path }}/projects/img.jpg">
@@ -69,8 +70,8 @@ compress_html: # http://jch.penibelst.de/
 navigation:
   - title: Projects
     url: /
-  - title: Fonts
-    url: /fonts
+  # - title: Fonts
+  #   url: /fonts
   - title: About
     url: /about
   - title: Contact
@@ -93,8 +94,8 @@ defaults:
       type: "projects"
     values:
       layout: "project"
-  - scope:
-      path: ""
-      type: "fonts"
-    values:
-      layout: "font"
+  # - scope:
+  #     path: ""
+  #     type: "fonts"
+  #   values:
+  #     layout: "font"

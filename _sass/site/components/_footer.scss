@@ -8,14 +8,6 @@ footer.main-footer {
     padding-top: rem(64px);
   }
 
-  .footer-license-wrapper {
-    @include grid-column(6);
-
-    @include grid-media(tablet) {
-      @include grid-column(10);
-    }
-  }
-
   .made-by-wrapper {
     position: relative;
 
