@@ -39,7 +39,7 @@ social-username:
   # instagram: "mattgreydesign"
   # flickr: "mattgreydesign"
   spotify: "1266544194"
-  scholar: "1Kkd6DQAAAAJ&"
+  scholar: "1Kkd6DQAAAAJ"
 
 # Content
 image_serve_path: "/images" # <img src="{{ site.image_serve_path }}/projects/img.jpg">

@@ -38,13 +38,41 @@
       }
     }
 
-    .about-attributes {
+    .about-publications {
       grid-row: 3;
-      @extend .grid-container-nested-big;
       @include grid-column(6);
 
       @include grid-media(tablet) {
         grid-row: 2;
+        @include grid-column(12);
+      }
+
+      @include grid-media(desktop) {
+        @include grid-column(12);
+      }
+    }
+
+    .about-patents {
+      grid-row: 4;
+      @include grid-column(6);
+
+      @include grid-media(tablet) {
+        grid-row: 3;
+        @include grid-column(12);
+      }
+
+      @include grid-media(desktop) {
+        @include grid-column(12);
+      }
+    }
+
+    .about-attributes {
+      grid-row: 5;
+      @extend .grid-container-nested-big;
+      @include grid-column(6);
+
+      @include grid-media(tablet) {
+        grid-row: 4;
         @include grid-column(12);
       }
 
@@ -69,16 +97,16 @@
     }
 
     .about-site {
-      grid-row: 4;
+      grid-row: 6;
       @include grid-column(6);
 
       @include grid-media(tablet) {
-        grid-row: 3;
+        grid-row: 5;
         @include grid-column(12);
       }
 
       @include grid-media(desktop) {
-        @include grid-column(6);
+        @include grid-column(12);
       }
     }
   }
