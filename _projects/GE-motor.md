@@ -1,5 +1,5 @@
 ---
-date: 2017-01-1
+date: 2014-4-1
 published: false
 sitemap: false
 title: "Butterfly"
@@ -10,7 +10,7 @@ media: Mobile App
 ownership:
 client: Butterfly
 time_period: 2017
-thumbnail: "/projects/butterfly/plist-butterfly.jpg"
+thumbnail: "/projects/intact/mixed_representation_square.png"
 
 website:
   button_text: Visit the site
